@@ -56,7 +56,7 @@ running the experiments.
    conda env create -f environment.yaml
    conda activate diffdsdfsim
    ```
-   The `PIP_NO_BUILD_ISOLATION` environment variable makes sure the build of the `sdf_utils` packages used the same
+   The `PIP_NO_BUILD_ISOLATION` environment variable makes sure the build of the [ev_sdf_utils](https://github.com/EmbodiedVision/ev-sdf-utils) package uses the same
    PyTorch version as you have in your environment.
 3. Add the path of this repository to your `PYTHONPATH`
    ```bash
